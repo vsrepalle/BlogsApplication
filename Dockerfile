@@ -5,7 +5,7 @@ FROM openjdk:11-jdk-slim
 WORKDIR /app
 
 # Copy the compiled JAR file into the container
-COPY target/blogsapplication.jar app.jar
+COPY target/blogs-0.0.1-SNAPSHOT.jar app.jar
 
 # Expose the port that your Spring Boot application listens on
 EXPOSE 9080
