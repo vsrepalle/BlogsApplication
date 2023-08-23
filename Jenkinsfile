@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout Code') {
             steps {
                 // Checkout the code from Git
-                git credentialsId: 'your-git-credentials', url: 'https://github.com/yourusername/yourrepository.git'
+                git credentialsId: 'your-git-credentials', url: 'https://github.com/vsrepalle/BlogsApplication.git'
             }
         }
         
